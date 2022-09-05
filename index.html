@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="css/jogo.css" />
+    <script src="./js/script.js" defer></script>
+    <title>Hangman</title>
+  </head>
+  <body class="app">
+    <header class="cabecalho">
+      <h1 class="logoTitulo">
+        Hangman
+        <!-- <img src="img/logo.png" alt="letra A" /> -->
+      </h1>
+      <div class="noturno">
+        <div class="on ativo">
+          <span>On</span>
+        </div>
+        <div class="off">
+          <span>Off</span>
+        </div>
+      </div>
+    </header>
+    <!--cabecalho-->
+
+    <main class="conteudoPrincipal">
+      <section class="jogo-container">
+        <div class="forca-container">
+          <svg height="250" width="200" class="forca ">
+            <!-- forca -->
+            <line x1="60" y1="20" x2="140" y2="20" />
+            <line x1="140" y1="20" x2="140" y2="50" />
+            <line x1="60" y1="20" x2="60" y2="230" />
+            <line x1="20" y1="230" x2="100" y2="230" />
+
+            <!-- cabeça -->
+            <circle cx="140" cy="70" r="20" class="forca-parte" />
+            <!-- corpo -->
+            <line x1="140" y1="90" x2="140" y2="150" class="forca-parte" />
+            <!-- braços -->
+            <line x1="140" y1="120" x2="120" y2="100" class="forca-parte" />
+            <line x1="140" y1="120" x2="160" y2="100" class="forca-parte" />
+            <!-- pernas -->
+            <line x1="140" y1="150" x2="120" y2="180" class="forca-parte" />
+            <line x1="140" y1="150" x2="160" y2="180" class="forca-parte" />
+          </svg>
+        </div>
+        <!-- forca-container -->
+
+        <section class="btn-section">
+          <a href="./html/jogo.html" class="botao" id="btn1"> Iniciar jogo </a>
+          <a href="./html/adcPalavra.html" class="botao" id="btn2">
+            Adicionar palavra
+          </a>
+        </section>
+        <!--btn-section-->
+
+        <section class="dicas">
+          <ul class="lista-dicas">
+            <li class="dica">Você tem 6 tentativas para acertar a palavra.</li>
+            <li class="dica">A palavra é composta apenas por letras.</li>
+            <li class="dica">O tema é natureza.</li>
+            <li class="dica">Ou clique em "Adicionar palavra" e digite a sua.</li>
+          </ul>
+        </section>
+        <!--dicas-->
+      </section>
+      <!--jogo-container-->
+    </main>
+    <!--conteudoPrincipal-->
+
+    <footer class="rodape">
+      <p>
+        Desenvolvido por &copy;
+        <a
+          href="https://www.linkedin.com/in/rafael-alesson"
+          target="_blank"
+          id="autor"
+          >Rafa Alesson</a
+        >
+      </p>
+    </footer>
+    <!--rodape-->
+  </body>
+</html>
