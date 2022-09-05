@@ -4,15 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/index.css" />
     <link rel="stylesheet" href="../css/reset.css" />
-    <script src="../js/script.js" defer></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="../css/jogo.css">
+    <script src="../js/jogo.js" defer></script>
     <title>Jogo da Forca</title>
   </head>
 
@@ -36,7 +30,6 @@
     <main class="conteudoPrincipal">
       
       <section class="jogo-container">
-        <h2 class="chamada">Digite no teclado uma letra e tente adivinhar a palavra!</h2>
 
         <div class="forca-container">
           <svg height="250" width="200" class="forca">
@@ -60,26 +53,27 @@
         </div>
         <!-- forca-container -->
 
-        <div class="letras-erradas-container">
-          <h3>Letras erradas</h3>
-        </div>
       </section>
       <!--jogo-container-->
 
-      <div class="palavra-secreta-container"></div>
+      <div class="palavra-secreta-container">Palavra secreta</div>
 
-      <div class="aviso-palavra-repetida">Você já usou essa letra!</div>
+      <div class="letras-erradas-container">
+        <span>Letras erradas</span>
+      </div>
 
-      <section class="popup-container">
-        <div class="popup">
-          <h2 id="mensagem"></h2>
-          <button id="btn-jogar" onclick="reiniciarJogo()">
+      <span class="aviso-palavra-repetida">Você já usou essa letra!</span>
+
+      <section class="btn-container">
+          <a class="botao" id="btn-jogar" onclick="reiniciarJogo()">
             Jogar novamente
-          </button>
-          <button id="btn-desistir">Desistir</button>
-        </div>
+          </a>
+
+          <a href="../index.html" class="botao" id="btn-desistir">
+            Desistir
+          </a>
       </section>
-      <!--popup-container-->
+      <!--btn-container-->
     </main>
     <!--conteudoPrincipal-->
 
