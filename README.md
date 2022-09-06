@@ -5,7 +5,7 @@
 
 <h2>Sobre o projeto:</h2>
 <p>
- Com muita satisfação finalizo o Challenge TWO da Oracle + Alura Latam.
+Challenge TWO da Oracle + Alura Latam.
 
 Esta aplicação é o clássico Hangman (Jogo da Forca),
 
@@ -30,4 +30,4 @@ A aplicação é, por ora, exclusiva para desktop.
 <h4>Veja online: </h4>
 <a href="https://rafalesson.github.io/desafio-oracle-002-hangman" target="_blank">Clique para ver online</a>
 
-<p align='center'>#challengeonedecodificador2</p>
+<p align='center'>#challengeonehangman</p>
