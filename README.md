@@ -9,7 +9,7 @@
 
 Esta aplicação é o clássico Hangman (Jogo da Forca),
 
-onde você tem 6 chances para descobrir qual a palavra secreta. 
+onde você terá 6 chances para descobrir qual a palavra secreta. 
 
 O tema das palavras é <b>Natureza</b>. 
 
