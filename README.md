@@ -13,7 +13,7 @@ onde você terá 6 chances para descobrir qual a palavra secreta.
 
 O tema das palavras é <b>Natureza</b>. 
 
-Na organização, coliguei com o Trello.
+Na gestão do projeto, coliguei com o Trello.
 
 A aplicação é, por ora, exclusiva para desktop.
 </p>
