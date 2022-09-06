@@ -27,7 +27,7 @@ A aplicação é, por ora, exclusiva para desktop.
   <li>JAVASCRIPT</li>
 </ul>
 
-<h4>Veja online: </h4>
-<a href="https://rafalesson.github.io/desafio-oracle-002-hangman" target="_blank">Clique para ver online</a>
+<h4>Clique para Jogar: </h4>
+<a href="https://rafalesson.github.io/desafio-oracle-002-hangman" target="_blank">Jogo da Forca </a>
 
 <p align='center'>#challengeOneHangman</p>
