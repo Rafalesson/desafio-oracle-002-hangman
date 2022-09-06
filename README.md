@@ -30,4 +30,4 @@ A aplicação é, por ora, exclusiva para desktop.
 <h4>Veja online: </h4>
 <a href="https://rafalesson.github.io/desafio-oracle-002-hangman" target="_blank">Clique para ver online</a>
 
-<p align='center'>#challengeonehangman</p>
+<p align='center'>#challengeOneHangman</p>
