@@ -5,17 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/reset.css" />
-    <link rel="stylesheet" href="../css/jogo.css">
+    <link rel="stylesheet" href="../css/jogo.css" />
     <script src="../js/jogo.js" defer></script>
     <title>Jogo da Forca</title>
   </head>
 
   <body class="app">
     <header class="cabecalho">
-        <h1 >
-          <a href="../index.html" class="logoTitulo">Hangman</a>
-        </h1>
-  
+      <h1>
+        <a href="../index.html" class="logoTitulo">Hangman</a>
+      </h1>
+
       <div class="noturno">
         <div class="on ativo">
           <span>On</span>
@@ -28,9 +28,7 @@
     <!--cabecalho-->
 
     <main class="conteudoPrincipal">
-      
       <section class="jogo-container">
-
         <div class="forca-container">
           <svg height="250" width="200" class="forca">
             <!-- forca -->
@@ -52,28 +50,32 @@
           </svg>
         </div>
         <!-- forca-container -->
-
       </section>
       <!--jogo-container-->
 
-      <div class="palavra-secreta-container">Palavra secreta</div>
+      <div class="palavra-secreta-container"></div>
 
-      <div class="letras-erradas-container">
-        <span>Letras erradas</span>
-      </div>
+      <div class="letras-erradas-container"></div>
 
-      <span class="aviso-palavra-repetida">Você já usou essa letra!</span>
+      <div class="aviso-palavra-repetida">Você já usou essa letra!</div>
 
       <section class="btn-container">
-          <a class="botao" id="btn-jogar" onclick="reiniciarJogo()">
-            Jogar novamente
-          </a>
+        <a class="botao" id="btn-jogar" onclick="reiniciarJogo()">
+          Reiniciar
+        </a>
 
-          <a href="../index.html" class="botao" id="btn-desistir">
-            Desistir
-          </a>
+        <a href="../index.html" class="botao" id="btn-desistir"> Desistir </a>
       </section>
       <!--btn-container-->
+
+      <section class="popup-container">
+        <div class="popup">
+          <span id="mensagem"></span>
+          <button id="btn-jogar" onclick="reiniciarJogo()">
+            Jogar novamente
+          </button>
+        </div>
+      </section>
     </main>
     <!--conteudoPrincipal-->
 
@@ -89,6 +91,5 @@
       </p>
     </footer>
     <!--rodape-->
-  
   </body>
 </html>
